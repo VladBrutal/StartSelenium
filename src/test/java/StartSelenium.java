@@ -13,7 +13,7 @@ public class StartSelenium {
 
     @BeforeMethod
     public void preconditions(){
-        System.setProperty("webdriver.chrome.driver", "/Users/vladyslav/Tools/chromedriver");
+        // System.setProperty("webdriver.chrome.driver", "/Users/vladyslav/Tools/chromedriver");
         wd = new ChromeDriver();
     }
 
